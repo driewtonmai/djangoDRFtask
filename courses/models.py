@@ -26,7 +26,7 @@ class Branch(models.Model):
 
 
 class Contact(models.Model):
-    type = models.IntegerField(choices=CONTACT, verbose_name='variants')
+    type = models.IntegerField(choices=CONTACT, verbose_name='Variants', null=True, blank=True)
     value = models.CharField(max_length=64)
     course = models.ForeignKey('Course', on_delete=models.CASCADE, verbose_name='Contacts', related_name='contacts')
 
