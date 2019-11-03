@@ -1,18 +1,18 @@
-#Courses
+# Courses
 
 Courses is a simple API that allows you to add, view and delete courses.
 
-##Prerequisites
+## Prerequisites
 
 You need to install the programs located in requirements.txt
-##Documentation
+## Documentation
 
 https://driewtonmai.docs.apiary.io/#reference
 
-##Built With
+## Built With
 
 django rest framework
 
-###Authors
+### Authors
 
 Omurzakov Tologon
