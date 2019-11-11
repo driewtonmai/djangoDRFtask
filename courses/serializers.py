@@ -11,7 +11,7 @@ class ContactsSerializer(serializers.ModelSerializer):
 class BranchesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Branch
-        fields = ('latitude', 'longitude', 'adress',)
+        fields = ('latitude', 'longitude', 'addres',)
 
 
 class CourseDetailSerializer(serializers.ModelSerializer):
