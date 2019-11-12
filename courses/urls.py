@@ -7,6 +7,6 @@ app_name = 'courses'
 
 
 urlpatterns = [
-    path('create/', CourseCreateView.as_view()),
+    path('courses/', CourseCreateView.as_view()),
     path('retrieve/<int:pk>/', views.CourseRetrieveView.as_view()),
 ]
